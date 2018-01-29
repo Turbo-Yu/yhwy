@@ -1,0 +1,23 @@
+<view style='width:100%;height:116px;position:fixed; top:0; z-index:0;background:linear-gradient(#add857, #4dae52) no-repeat left 100%;border-bottom-left-radius:50%;border-bottom-right-radius:50%;'></view>
+<view style='padding-left:10px; padding-right:10px;position:relative;'>
+  <block wx:for="{{videourls}}">
+    <view class='videocontainer' bindtap='showPlayer' data-videourl='{{item.videourl}}' id='videocontainer'>
+      <view class='homeimagecontainer'>
+        <image class='homeimage' src='{{item.imgurl}}' alt='{{item.title}}'></image>
+      </view>
+      <view class='titlecontainer'>
+        <image src="/res/img/bars/playing.png"></image>
+        <view class='title2'>
+          <view class='title'>{{item.title}}</view>
+          <view class='visitsum'>{{item.visitsum}}</view>
+        </view>
+      </view>
+    </view>
+  </block>
+</view>
+<view id='mask' class='mask' style='display:{{showMask}}'></view>
+<view id='videoplayer' class='videoplayer' style='display:{{showPlayer}}'>
+  <!-- <video src='{{playerUrl}}'></video> -->
+  <video src='/res/videos/video01.mp4'></video>
+  <view class='closebutton' bindtap='closevideo'><image src='/res/img/bars/close_video.png'></image></view>
+</view>

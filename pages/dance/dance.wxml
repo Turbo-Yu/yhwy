@@ -1,0 +1,27 @@
+<view style='width:100%;height:116px;position:fixed; top:0; z-index:0;background:linear-gradient(#add857, #4dae52) no-repeat left 100%;border-bottom-left-radius:50%;border-bottom-right-radius:50%;'></view>
+<view style='padding-left:10px; padding-right:10px;position:relative;'>
+  <view class='filder-bar'>
+    <view class='filder all'>
+      全部
+    </view>
+    <view class='filder diffcult'>
+      难度
+      <image src='/res/img/bars/down_arrow.png'></image>
+    </view>
+    <view class='filder type'>
+      舞种
+      <image src='/res/img/bars/down_arrow.png'></image>
+    </view>
+    <view class='filder teacher'>
+      教师
+      <image src='/res/img/bars/down_arrow.png'></image></view>
+  </view>
+
+  <view class='course-container'>
+    <block wx:for="{{courses}}">
+      <view class='course'>
+        <image class='course-img' src='{{item.imageurl}}'></image>
+      </view>
+    </block>
+  </view>
+</view>
