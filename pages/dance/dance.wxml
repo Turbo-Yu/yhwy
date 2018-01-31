@@ -4,15 +4,15 @@
     <view class='filder all'>
       全部
     </view>
-    <view class='filder diffcult'>
+    <view class='filder diffcult' bindtap='changeOrder' data-kind='diffcult' data-sorttype='asc'>
       难度
       <image src='/res/img/bars/down_arrow.png'></image>
     </view>
-    <view class='filder type'>
+    <view class='filder type' bindtap='changeOrder' data-kind='type' data-sorttype='asc'>
       舞种
       <image src='/res/img/bars/down_arrow.png'></image>
     </view>
-    <view class='filder teacher'>
+    <view class='filder teacher' bindtap='changeOrder' data-kind='teacher' data-sorttype='asc'>
       教师
       <image src='/res/img/bars/down_arrow.png'></image></view>
   </view>
@@ -20,7 +20,7 @@
   <view class='course-container'>
     <block wx:for="{{courses}}">
       <view class='course'>
-        <image class='course-img' src='{{item.imageurl}}'></image>
+        <image class='course-img' src='{{item.imageurl}}'>{{item.hardlevel}}</image>
       </view>
     </block>
   </view>
