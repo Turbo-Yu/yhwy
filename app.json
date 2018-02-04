@@ -2,17 +2,18 @@
   "pages": [
     "pages/index/index",
     "pages/dance/dance",
+    "pages/content/content",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor":"#add857",
+    "navigationBarBackgroundColor": "#add857",
     "navigationBarTitleText": "艺海舞苑",
     "navigationBarTextStyle": "white",
-    "backgroundColor":"#e3e3e3"
+    "backgroundColor": "#e3e3e3"
   },
   "tabBar": {
-    "backgroundColor":"#e3e3e3",
+    "backgroundColor": "#e3e3e3",
     "list": [
       {
         "pagePath": "pages/index/index",
