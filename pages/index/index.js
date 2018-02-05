@@ -6,7 +6,7 @@ Page({
   data: {
     showPlayer: 'none',
     showMask: 'none',
-    playerUrl: host + '/res/videos/video01/video.mp4',
+    playerContent: '',
     videourls: [
       {
         imgurl: host + '/res/videos/video01/homeimg.jpg',
@@ -45,16 +45,13 @@ Page({
   showPlayer: function (event) {
     var that = this;
     that.setData({
-      showPlayer: 'block',
-      showMask: 'block',
-      playerUrl: event.currentTarget.dataset.videourl
+      playerContent: "<view id='mask' class='mask' style='display:block' > </view>< view id='videoplayer' class='videoplayer' style='display:block' ><video src='" + event.currentTarget.dataset.videourl+"'></video>< view class='closebutton' bindtap='closevideo' > <image src='/res/img/bars/close_video.png'></image></view></view>"
     })
   },
   closevideo: function () {
     var that = this;
     that.setData({
-      showPlayer: 'none',
-      showMask: 'none'
+      playerContent: ""
     })
   }
 })

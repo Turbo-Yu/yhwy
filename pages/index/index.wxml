@@ -15,8 +15,6 @@
     </view>
   </block>
 </view>
-<view id='mask' class='mask' style='display:{{showMask}}'></view>
-<view id='videoplayer' class='videoplayer' style='display:{{showPlayer}}'>
-  <video src='{{playerUrl}}'></video>
-  <view class='closebutton' bindtap='closevideo'><image src='/res/img/bars/close_video.png'></image></view>
-</view>
+<text>
+{{playerContent}}
+</text>

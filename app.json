@@ -1,8 +1,8 @@
 {
   "pages": [
-    "pages/us/contact_us",
     "pages/index/index",
     "pages/dance/dance",
+    "pages/us/contact_us",
     "pages/content/content",
     "pages/logs/logs"
   ],
@@ -31,7 +31,7 @@
       {
         "pagePath": "pages/us/contact_us",
         "text": "我们",
-        "iconPath": "res/img/bars/dr_home.png",
+        "iconPath": "res/img/bars/dr_about.png",
         "selectedIconPath": "res/img/bars/dr_home_selected.png"
       }
     ]
