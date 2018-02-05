@@ -3,6 +3,7 @@
     "pages/us/contact_us",
     "pages/index/index",
     "pages/dance/dance",
+    "pages/content/content",
     "pages/logs/logs"
   ],
   "window": {
