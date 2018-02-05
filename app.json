@@ -1,18 +1,19 @@
 {
   "pages": [
+    "pages/us/contact_us",
     "pages/index/index",
     "pages/dance/dance",
     "pages/logs/logs"
   ],
   "window": {
     "backgroundTextStyle": "light",
-    "navigationBarBackgroundColor":"#add857",
+    "navigationBarBackgroundColor": "#add857",
     "navigationBarTitleText": "艺海舞苑",
     "navigationBarTextStyle": "white",
-    "backgroundColor":"#e3e3e3"
+    "backgroundColor": "#e3e3e3"
   },
   "tabBar": {
-    "backgroundColor":"#e3e3e3",
+    "backgroundColor": "#e3e3e3",
     "list": [
       {
         "pagePath": "pages/index/index",
@@ -25,6 +26,12 @@
         "text": "舞蹈",
         "iconPath": "res/img/bars/dr_shop.png",
         "selectedIconPath": "res/img/bars/dr_shop_selected.png"
+      },
+      {
+        "pagePath": "pages/us/contact_us",
+        "text": "我们",
+        "iconPath": "res/img/bars/dr_home.png",
+        "selectedIconPath": "res/img/bars/dr_home_selected.png"
       }
     ]
   },

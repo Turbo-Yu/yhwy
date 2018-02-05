@@ -1,0 +1,80 @@
+/* pages/us/contact_us.wxss */
+.title{
+  position: relative;
+  text-align:center;
+  margin-top:10px;
+  margin-bottom:20px;
+  font-size:60rpx;
+  font-weight: 600;
+}
+
+.description{
+  position: relative;
+  margin: 8px;
+  font-size: 35rpx;
+  line-height: 60rpx;
+}
+
+.chooseuscontainer{
+  position: relative;
+  background: #e1e1e1;
+  padding-bottom: 10px;
+}
+.chooseus{
+  text-align:center;
+  margin-top:10px;
+  padding-top: 10px;
+  margin-bottom:10px;
+  font-size:50rpx;
+  font-weight: 400;
+}
+.reason{
+  background-size:3%;
+  padding-left:80rpx;
+  margin:5px 0;
+  font-size: 40rpx;
+}
+.reason1{
+  background:url(http://www.ad.siemens.isoftstone.com/club/yhh/choose/o_1.png) no-repeat 3% 50%;
+  background-size:2%;
+}
+
+.reason2{
+  background:url(http://www.ad.siemens.isoftstone.com/club/yhh/choose/o_2.png) no-repeat 3% 50%;
+  background-size:3%;
+}
+
+.reason3{
+  background:url(http://www.ad.siemens.isoftstone.com/club/yhh/choose/o_3.png) no-repeat 3% 50%;
+  background-size:3%;
+}
+
+.reason4{
+  background:url(http://www.ad.siemens.isoftstone.com/club/yhh/choose/o_4.png) no-repeat 3% 50%;
+  background-size:3%;
+}
+
+.dancecontainer{
+  position: relative;
+}
+
+.dancetype{  
+  text-align:center;
+  margin-top:10px;
+  padding-top: 10px;
+  margin-bottom:10px;
+  font-size:50rpx;
+  font-weight: 400;
+}
+
+.dance_t1{
+  position: relative;
+}
+
+.dance_t2{
+  position: relative;
+}
+
+.dance_t3{
+  position: relative;
+}

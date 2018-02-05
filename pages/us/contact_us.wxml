@@ -1,0 +1,20 @@
+<!--pages/us/contact_us.wxml-->
+<view style='width:100%;height:116px;position:fixed; top:0; z-index:0;background:linear-gradient(#add857, #4dae52) no-repeat left 100%;border-bottom-left-radius:50%;border-bottom-right-radius:50%;'></view>
+<view class='title'>艺海舞苑简介</view>
+<view class='description'>
+    <text>　　艺海舞苑成立于2014年，以教学为主，育人为本的教育理念出发，创办集宁地区专业的舞蹈培训机构。\r\n 　　我们的老师曾多次受邀参加乌兰察布市各大晚会、音乐节及各类演出的舞蹈编导，校长多次担任乌兰察布市春晚舞蹈编导，并将我们的学校推上了更大的舞台，让大家见证了我们的实力与能力
+    </text>
+</view>
+<view class='chooseuscontainer'>
+  <view class='chooseus'>选择我们的理由</view>
+  <view class='reason reason1'>优质的教学理念,专业的教师团队</view>
+  <view class='reason reason2'>特定的教学大纲,活跃的课堂气氛</view>
+  <view class='reason reason3'>提高孩子柔韧度,开发孩子灵动性</view>
+  <view class='reason reason4'>良好的教学环境,宽敞的排练教室</view>
+</view>
+<view class='dancecontainer'>
+  <view class='dancetype'>舞蹈种类</view>
+  <view class='dance_t1'>民族民间舞</view>
+  <view class='dance_t2'>国标</view>
+  <view class='dance_t3'>芭蕾基训</view>
+</view>
