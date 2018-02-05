@@ -1,38 +1,39 @@
 //index.js
 //获取应用实例
 const app = getApp()
+const host = 'https://yhwy.xyz'
 Page({
   data: {
     showPlayer: 'none',
     showMask: 'none',
-    playerUrl: '/res/videos/video02/video.mp4',
+    playerUrl: host + '/res/videos/video01/video.mp4',
     videourls: [
       {
-        imgurl: '/res/videos/video01/homeimg.jpg',
-        videourl: '/res/videos/video01/video.mp4',
+        imgurl: host + '/res/videos/video01/homeimg.jpg',
+        videourl: host + '/res/videos/video01/video.mp4',
         title: '你所认为的“杂技”都是BBoy用生命和激情在创造这个世界',
         visitsum: '4671次观看'
       },
       {
-        imgurl: '/res/videos/video02/homeimg.jpg',
-        videourl: '/res/videos/video02/video.mp4',
+        imgurl: host + '/res/videos/video02/homeimg.jpg',
+        videourl: host + '/res/videos/video02/video.mp4',
         title: '你所认为的“杂技”都是BBoy用生命和激情在创造这个世界',
         visitsum: '4671次观看'
       },
       {
-        imgurl: '/res/videos/video03/homeimg.jpg',
-        videourl: '/res/videos/video03/video.mp4',
+        imgurl: host + '/res/videos/video03/homeimg.jpg',
+        videourl: host + '/res/videos/video03/video.mp4',
         title: '你所认为的“杂技”都是BBoy用生命和激情在创造这个世界',
         visitsum: '4671次观看'
       },
       {
-        imgurl: '/res/videos/video11/homeimg.jpg',
-        videourl: '/res/videos/video11/video.mp4',
+        imgurl: host + '/res/videos/video11/homeimg.jpg',
+        videourl: host + '/res/videos/video11/video.mp4',
         title: '你所认为的“杂技”都是BBoy用生命和激情在创造这个世界',
         visitsum: '4671次观看'
       },
       {
-        imgurl: '/res/videos/video14/homeimg.jpg',
+        imgurl: host + '/res/videos/video14/homeimg.jpg',
         videourl: '/res/videos/video14/video.mp4',
         title: '你所认为的“杂技”都是BBoy用生命和激情在创造这个世界',
         visitsum: '4671次观看'

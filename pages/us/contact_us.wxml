@@ -14,7 +14,16 @@
 </view>
 <view class='dancecontainer'>
   <view class='dancetype'>舞蹈种类</view>
-  <view class='dance_t1'>民族民间舞</view>
-  <view class='dance_t2'>国标</view>
-  <view class='dance_t3'>芭蕾基训</view>
+  <view class='dance_t1'>
+    <image src='https://yhwy.xyz/res/img/dances/nation.jpg'></image>
+    民族民间舞
+  </view>
+  <view class='dance_t2'>
+    <image src='https://yhwy.xyz/res/img/dances/standard.jpg'></image>
+    国标
+  </view>
+  <view class='dance_t3'>
+    <image src='https://yhwy.xyz/res/img/dances/ballet.jpg'></image>
+    芭蕾基训
+  </view>
 </view>

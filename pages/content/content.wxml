@@ -1,18 +1,18 @@
 <!--pages/content/content.wxml-->
 <view style='width:100%;height:116px;position:fixed; top:0; z-index:0;background:linear-gradient(#add857, #4dae52) no-repeat left 100%;border-bottom-left-radius:50%;border-bottom-right-radius:50%;'></view>
-<view class='title'>芭蕾舞</view>
+<view class='title'>{{videoobj.dancename}}</view>
 <view class='videocontainer'>
-<video src='/res/courses/course01/video.mp4'></video>
+  <video src='{{videoobj.videourl}}'></video>
 </view>
-<view class='contentcontainer'>
-  <image src='/res/courses/course01/teacherphoto.jpg' class='teacherphoto'></image>
-  <view class='head'>
-    <view class='headname'>校长:</view>
-    <view class='name'>刘海明</view>
+<block wx:for="{{teacherarr}}">
+  <view class='contentcontainer'>
+    <image src='{{item.imgurl}}' class='teacherphoto'></image>
+    <view class='head'>
+      <view class='headname'>{{item.headname}}</view>
+      <view class='name'>{{item.name}}</view>
+    </view>
+    <view class='description'>
+      <text>{{item.description}}</text>
+    </view>
   </view>
-  <view class='description'>
-    <text>　　青年舞蹈编导乌兰察布优秀舞蹈教师 毕业于内蒙古大学艺术学院 内蒙古舞蹈家协会会员 创作作品《呼唤》《察哈尔骑士》《牧童》等作品荣获全国各项大奖! 曾多次担任春晚及个大型音乐节舞蹈总监！
-    </text>
-  </view>
-</view>
-<view style='position:relative; height:10px;'></view>
+</block>

@@ -1,95 +1,96 @@
 // pages/dance/dance.js
 
-Page({
+const host = 'https://yhwy.xyz'
 
+Page({
   /**
    * 页面的初始数据
    */
   data: {
     courses: [
       {
-        imageurl: '/res/videos/video01/homeimg.jpg',
-        videourl: 'res/videos/video01/video.mp4',
+        imageurl: host + '/res/videos/video01/homeimg.jpg',
+        videourl: host + 'res/videos/video01/video.mp4',
         index: 1,
         hardlevel: 1,
         teacher: 2,
         dancetype: 2
       },
       {
-        imageurl: '/res/videos/video02/homeimg.jpg',
-        videourl: 'res/videos/video02/video.mp4',
+        imageurl: host + '/res/videos/video02/homeimg.jpg',
+        videourl: host + 'res/videos/video02/video.mp4',
         index: 2,
         hardlevel: 2,
         teacher: 2,
         dancetype: 1
       },
       {
-        imageurl: '/res/videos/video03/homeimg.jpg',
-        videourl: 'res/videos/video03/video.mp4',
+        imageurl: host + '/res/videos/video03/homeimg.jpg',
+        videourl: host + 'res/videos/video03/video.mp4',
         index: 3,
         hardlevel: 3,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video04/homeimg.jpg',
-        videourl: 'res/videos/video04/video.mp4',
+        imageurl: host + '/res/videos/video04/homeimg.jpg',
+        videourl: host + 'res/videos/video04/video.mp4',
         index: 4,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video12/homeimg.jpg',
-        videourl: 'res/videos/video12/video.mp4',
+        imageurl: host + '/res/videos/video12/homeimg.jpg',
+        videourl: host + 'res/videos/video12/video.mp4',
         index: 5,
         hardlevel: 1,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video14/homeimg.jpg',
-        videourl: 'res/videos/video14/video.mp4',
+        imageurl: host + '/res/videos/video14/homeimg.jpg',
+        videourl: host + 'res/videos/video14/video.mp4',
         index: 6,
         hardlevel: 3,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video15/homeimg.jpg',
-        videourl: 'res/videos/video15/video.mp4',
+        imageurl: host + '/res/videos/video15/homeimg.jpg',
+        videourl: host + 'res/videos/video15/video.mp4',
         index: 7,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video16/homeimg.jpg',
-        videourl: 'res/videos/video16/video.mp4',
+        imageurl: host + '/res/videos/video16/homeimg.jpg',
+        videourl: host + 'res/videos/video16/video.mp4',
         index: 8,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video17/homeimg.jpg',
-        videourl: 'res/videos/video17/video.mp4',
+        imageurl: host + '/res/videos/video17/homeimg.jpg',
+        videourl: host + 'res/videos/video17/video.mp4',
         index: 9,
         hardlevel: 1,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video18/homeimg.jpg',
-        videourl: 'res/videos/video018/video.mp4',
+        imageurl: host + '/res/videos/video18/homeimg.jpg',
+        videourl: host + 'res/videos/video018/video.mp4',
         index: 10,
         hardlevel: 2,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: '/res/videos/video19/homeimg.jpg',
-        videourl: 'res/videos/video019/video.mp4',
+        imageurl: host + '/res/videos/video19/homeimg.jpg',
+        videourl: host + 'res/videos/video019/video.mp4',
         index: 11,
         hardlevel: 5,
         teacher: 2,
