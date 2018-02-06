@@ -20,19 +20,19 @@
         "pagePath": "pages/index/index",
         "text": "首页",
         "iconPath": "res/img/bars/dr_home.png",
-        "selectedIconPath": "res/img/bars/dr_home_selected.png"
+        "selectedIconPath": "res/img/bars/dr_homeselected.png"
       },
       {
         "pagePath": "pages/dance/dance",
         "text": "舞蹈",
         "iconPath": "res/img/bars/dr_shop.png",
-        "selectedIconPath": "res/img/bars/dr_shop_selected.png"
+        "selectedIconPath": "res/img/bars/dr_shopselected.png"
       },
       {
         "pagePath": "pages/us/contact_us",
         "text": "我们",
         "iconPath": "res/img/bars/dr_about.png",
-        "selectedIconPath": "res/img/bars/dr_home_selected.png"
+        "selectedIconPath": "res/img/bars/dr_aboutselected.png"
       }
     ]
   },
