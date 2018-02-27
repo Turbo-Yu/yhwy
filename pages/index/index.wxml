@@ -15,6 +15,11 @@
     </view>
   </block>
 </view>
-<text>
-{{playerContent}}
-</text>
+
+<view id='mask' class='mask' style='display:block' wx:if="{{!!playerUrl}}"> </view>
+<view id='videoplayer' class='videoplayer' style='display:block' wx:if="{{!!playerUrl}}">
+  <video src='{{playerUrl}}'></video>
+  <view class='closebutton' bindtap='closevideo'> 
+    <image src='/res/img/bars/close_video.png'></image>
+  </view>
+</view>

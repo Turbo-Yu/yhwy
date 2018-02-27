@@ -12,13 +12,13 @@ Page({
         imageurl: host + '/res/videos/video01/homeimg.jpg',
         videourl: host + 'res/videos/video01/video.mp4',
         index: 1,
-        hardlevel: 1,
-        teacher: 2,
-        dancetype: 2
+        hardlevel: 1,//1:入门,2:简单,3:普通,4:困难,5:极难
+        teacher: 2,//主教老师:1:刘海明,2:王鲜云,3:郝珊艺,4:张雄,5:李甜甜,6:郭宇孹,7:王静
+        dancetype: 2//1:芭蕾舞,2:国标,3:芭蕾基训
       },
       {
         imageurl: host + '/res/videos/video02/homeimg.jpg',
-        videourl: host + 'res/videos/video02/video.mp4',
+        videourl: '',
         index: 2,
         hardlevel: 2,
         teacher: 2,
@@ -26,7 +26,7 @@ Page({
       },
       {
         imageurl: host + '/res/videos/video03/homeimg.jpg',
-        videourl: host + 'res/videos/video03/video.mp4',
+        videourl: '',
         index: 3,
         hardlevel: 3,
         teacher: 2,
@@ -34,65 +34,73 @@ Page({
       },
       {
         imageurl: host + '/res/videos/video04/homeimg.jpg',
-        videourl: host + 'res/videos/video04/video.mp4',
+        videourl: '',
         index: 4,
+        hardlevel: 4,
+        teacher: 2,
+        dancetype: 3
+      }, 
+      {
+        imageurl: host + '/res/videos/video05/homeimg.jpg',
+        videourl: host + 'res/videos/video05/video.mp4',
+        index: 5,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: host + '/res/videos/video12/homeimg.jpg',
-        videourl: host + 'res/videos/video12/video.mp4',
-        index: 5,
+        imageurl: host + '/res/videos/video11/homeimg.jpg',
+        videourl: host + 'res/videos/video11/video.mp4',
+        index: 6,
         hardlevel: 1,
         teacher: 2,
         dancetype: 3
       },
       {
-        imageurl: host + '/res/videos/video14/homeimg.jpg',
-        videourl: host + 'res/videos/video14/video.mp4',
-        index: 6,
+        imageurl: host + '/res/videos/video12/homeimg.jpg',
+        videourl: '',
+        index: 7,
         hardlevel: 3,
         teacher: 2,
         dancetype: 3
       },
       {
+        imageurl: host + '/res/videos/video14/homeimg.jpg',
+        videourl: '',
+        index: 8,
+        hardlevel: 5,
+        teacher: 2,
+        dancetype: 3
+      },
+      {
         imageurl: host + '/res/videos/video15/homeimg.jpg',
-        videourl: host + 'res/videos/video15/video.mp4',
-        index: 7,
+        videourl: '',
+        index: 9,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
         imageurl: host + '/res/videos/video16/homeimg.jpg',
-        videourl: host + 'res/videos/video16/video.mp4',
-        index: 8,
+        videourl: '',
+        index: 10,
         hardlevel: 4,
         teacher: 2,
         dancetype: 3
       },
       {
         imageurl: host + '/res/videos/video17/homeimg.jpg',
-        videourl: host + 'res/videos/video17/video.mp4',
-        index: 9,
+        videourl: '',
+        index: 11,
         hardlevel: 1,
         teacher: 2,
         dancetype: 3
       },
       {
         imageurl: host + '/res/videos/video18/homeimg.jpg',
-        videourl: host + 'res/videos/video018/video.mp4',
-        index: 10,
+        videourl: '',
+        index: 12,
         hardlevel: 2,
-        teacher: 2,
-        dancetype: 3
-      },
-      {
-        imageurl: host + '/res/videos/video19/homeimg.jpg',
-        videourl: host + 'res/videos/video019/video.mp4',
-        index: 11,
-        hardlevel: 5,
         teacher: 2,
         dancetype: 3
       },
@@ -100,62 +108,6 @@ Page({
     hard_asc: true,
     teacher_asc: true,
     dance_asc: true
-  },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
   },
   changeOrder: function (event) {
     var that = this;
